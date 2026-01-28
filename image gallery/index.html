@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery - Yuvraj</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<main>
+  <!-- SIDEBAR -->
+  <nav>
+    <div class="nav-top">
+      <a href="#"><img src="./assets/logo.png" alt=""></a>
+      <a href="#"><i class="ri-home-4-line"></i></a>
+      <a href="#"><i class="ri-compass-discover-line"></i></a>
+      <a href="#"><i class="ri-add-line"></i></a>
+      <a href="#"><i class="ri-flag-line"></i></a>
+      <a href="#"><i class="ri-notification-2-line"></i></a>
+    </div>
+    <div class="nav-bottom">
+      <a href="#"><i class="ri-settings-4-line"></i></a>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <section class="container">
+
+    <!-- TOP BAR -->
+    <section class="top">
+      <div class="search-container">
+        <i class="ri-search-line search-icon"></i>
+        <input type="text" placeholder="Search" class="search-input"/>
+      </div>
+
+      <div class="profile">
+        <img src="./assets/profile.png" alt="">
+      </div>
+    </section>
+
+    <!-- MASONRY -->
+    <section class="image-section">
+      <div class="parent">
+
+        <div class="card">
+          <img src="https://i.pinimg.com/1200x/c0/81/f5/c081f5648d77de109a8fb394751dcdc4.jpg">
+          
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/96/14/c2/9614c2c60a87e9b29aa1107f980e1954.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/f2/e2/7a/f2e27aeaf45c5282a037ca257555eafd.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/75/a0/26/75a026a4097b978a6b952f8dd24d8ba2.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/7a/3a/94/7a3a94b23d12d08236058da6b2a56d46.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/12/4c/5f/124c5f5cb3ee63ce9116de0fd6062209.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/1200x/45/18/d9/4518d914dc0be4f3b2a469928daf25fa.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/736x/53/1a/7e/531a7e954829083b617d88328d980203.jpg">
+        </div>
+
+        <div class="card">
+          <img src="https://i.pinimg.com/1200x/d2/c4/b4/d2c4b48c3cd8569889e7453fdc964229.jpg">
+        </div>        
+
+        <div class="card">
+          <img src="https://i.pinimg.com/1200x/d2/c4/b4/d2c4b48c3cd8569889e7453fdc964229.jpg">
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
+
+<div class="image-modal" id="imageModal">
+  <span class="close-btn">&times;</span>
+  <span id="prevBtn">
+    <i class="ri-arrow-left-s-line"></i>
+  </span>
+  <img class="modal-img" id="modalImg">
+  <span id="nextBtn">
+    <i class="ri-arrow-right-s-line"></i>
+  </span>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
